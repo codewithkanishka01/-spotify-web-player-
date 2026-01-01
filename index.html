@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon" href="logo.png">
+  <title>Spotify Web Player</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="main">
+
+  <div class="sidebar">
+
+    <div class="nav">
+      <div class="nav-options">
+        <i class="fa-solid fa-house"></i>
+        <a href="#">Home</a>
+      </div>
+      <div class="nav-options">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="#">Search</a>
+      </div>
+    </div>
+
+    <div class="library">
+      <div class="options">
+        <div class="lib-options nav-options">
+          <img src="./library_icon.png">
+          <a href="#">Your Library</a>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-plus"></i>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </div>
+
+      <div class="lib-box">
+        <div class="box">
+          <p class="box-p1">Create your first playlist</p>
+          <p class="box-p2">It's easy, we'll help you</p>
+          <button class="badge">Create Playlist</button>
+        </div>
+        <div class="box">
+          <p class="box-p1">Let's find some podcasts</p>
+          <p class="box-p2">We'll keep you updated</p>
+          <button class="badge">Browse podcasts</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="main-content">
+
+    <div class="stickey-nav">
+      <div class="stickey-nav-icons">
+        <img src="./backward_icon.png">
+        <img src="./forward_icon.png">
+      </div>
+      <div class="stickey-nav-options">
+        <button class="badge nav-items">Explore Premium</button>
+        <button class="badge nav-items dark-badge">
+          <i class="fa-solid fa-circle-arrow-down"></i> Install App
+        </button>
+        <i class="fa-regular fa-user nav-items"></i>
+      </div>
+    </div>
+
+    <h2>Recently Played</h2>
+    <div class="cards-container">
+      <div class="card">
+        <img src="./card1img.jpeg" class="cards-img">
+        <p class="cards-title">Top 50 Global</p>
+        <p class="cards-info">Daily top songs</p>
+      </div>
+      <div class="card">
+        <img src="./asalmein.jpeg" class="cards-img">
+        <p class="cards-title">Daily Mix</p>
+        <p class="cards-info">Your favourites</p>
+      </div>
+      <div class="card">
+        <img src="./card3img.jpeg" class="cards-img">
+        <p class="cards-title">Chill Hits</p>
+        <p class="cards-info">Relax music</p>
+      </div>
+      <div class="card">
+        <img src="./likedsongs.jpeg" class="cards-img">
+        <p class="cards-title">Liked</p>
+        <p class="cards-info">Your favourites</p>
+      </div>
+    </div>
+
+    <h2>Trending Now</h2>
+    <div class="cards-container">
+      <div class="card"><img src="./card2img.jpeg" class="cards-img"><p class="cards-title">Trending India</p><p class="cards-info">Hot tracks</p></div>
+      <div class="card"><img src="./diljit.jpeg" class="cards-img"><p class="cards-title">Punjabi Hits</p><p class="cards-info">Top Punjabi</p></div>
+      <div class="card"><img src="./punjabi.jpeg" class="cards-img"><p class="cards-title">Viral Hits</p><p class="cards-info">Internet hits</p></div>
+      <div class="card"><img src="./card5img.jpeg" class="cards-img"><p class="cards-title">Bollywood</p><p class="cards-info">Latest songs</p></div>
+      <div class="card"><img src="./indie.jpeg" class="cards-img"><p class="cards-title">Indie</p><p class="cards-info">Indie songs</p></div>
+    </div>
+
+    <h2>Made For You</h2>
+    <div class="cards-container">
+      <div class="card"><img src="./discoverweekly.webp" class="cards-img"><p class="cards-title">Discover Weekly</p><p class="cards-info">Fresh picks</p></div>
+      <div class="card"><img src="./anuv.jpeg" class="cards-img"><p class="cards-title">Release Radar</p><p class="cards-info">New music</p></div>
+      <div class="card"><img src="./repeat.jpeg" class="cards-img"><p class="cards-title">On Repeat</p><p class="cards-info">Your favourites</p></div>
+      <div class="card"><img src="./card4img.jpeg" class="cards-img"><p class="cards-title">South Hits</p><p class="cards-info">Dance music</p></div>
+       <div class="card"><img src="./card1img.jpeg" class="cards-img"><p class="cards-title">Repeat Rewind</p><p class="cards-info">Recently played</p></div>
+      
+    </div>
+
+    <h2>Something New</h2>
+    <div class="cards-container">
+      <div class="card"><img src="./arjit.jpeg" class="cards-img"><p class="cards-title">Arjit's Hits</p><p class="cards-info">Fresh picks</p></div>
+      <div class="card"><img src="./card2img.jpeg" class="cards-img"><p class="cards-title">Mahiye Jinna</p><p class="cards-info">Trending</p></div>
+      <div class="card"><img src="./dance party.jpeg" class="cards-img"><p class="cards-title">Dance Party</p><p class="cards-info">Dance music</p></div>
+      <div class="card"><img src="./weekend.jpeg" class="cards-img"><p class="cards-title">Repeat Rewind</p><p class="cards-info">Recently played</p></div>
+       <div class="card"><img src="./talwinder.jpeg" class="cards-img"><p class="cards-title">Pal Pal</p><p class="cards-info">Recently played</p></div>
+       <div class="card"><img src="./arjit2.jpg" class="cards-img"><p class="cards-title">Arjit Singh</p><p class="cards-info">Recently played</p></div>
+       <div class="card"><img src="./indierock.jpeg" class="cards-img"><p class="cards-title">Soft Indie</p><p class="cards-info">Indie Rocks</p></div>
+       <div class="card"><img src="./adiyua.jpeg" class="cards-img"><p class="cards-title">Aditya Rikhari</p><p class="cards-info">Fresh Songs</p></div>
+       <div class="card"><img src="./anuvjain.jpeg" class="cards-img"><p class="cards-title">Anuv Jain</p><p class="cards-info">Feels Good Songs</p></div>
+       <div class="card"><img src="./darshan.jpeg" class="cards-img"><p class="cards-title">Darshan Ravel</p><p class="cards-info">Fresh Songs</p></div>
+       <div class="card"><img src="./taylor.jpeg" class="cards-img"><p class="cards-title">Taylor Swift</p><p class="cards-info">Fresh Songs</p></div>
+       <div class="card"><img src="./sahiba.jpeg" class="cards-img"><p class="cards-title">Saibha</p><p class="cards-info">Aditya</p></div>
+       <div class="card"><img src="./raatein.jpeg" class="cards-img"><p class="cards-title">Aditya Rikhari</p><p class="cards-info">Fresh Songs</p></div>
+       <div class="card"><img src="./pritam.jpeg" class="cards-img"><p class="cards-title">Pritam</p><p class="cards-info">Fresh Songs</p></div>
+       <div class="card"><img src="./pop.jpeg" class="cards-img"><p class="cards-title">Pop Hits</p><p class="cards-info">Fresh Songs</p></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="footer">
+      <div class="line"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="musicplayer">
+  <div class="album"></div>
+
+  <div class="player">
+    <div class="player-controls">
+      <img src="./player_icon1.png" class="control-icon">
+      <img src="./player_icon2.png" class="control-icon">
+      <img src="./player_icon3.png" class="control-icon">
+      <img src="./player_icon4.png" class="control-icon">
+      <img src="./player_icon5.png" class="control-icon">
+    </div>
+    <div class="playback-bar">
+      <span>0:00</span>
+      <input type="range" class="progress-bar">
+      <span>3:33</span>
+    </div>
+  </div>
+
+  <div class="controls"></div>
+</div>
+
+</body>
+</html>
